@@ -22,11 +22,15 @@ Untuk memulai, pastikan Anda memiliki hal-hal berikut:
 ## ⚙️ Instalasi
 
 1. Kloning repositori ini:
+```bash
    git clone https://github.com/putraaxzy/bot_wa-ts
    cd bot_wa-ts
+```
 
 2. Instal dependensi:
+```bash
    npm install
+```
 
 3. Konfigurasi kunci API Anda: Tambahkan kunci API Google Gemini Anda di file index.ts
 
@@ -37,7 +41,10 @@ Sesuaikan objek lessons di index.ts untuk mencocokkan jadwal kelas Anda.
 
 ### Jalankan Aplikasi
 Mulai aplikasi dengan:
+
+```bash
 npm start
+```
 
 ### Autentikasi
 QR code akan ditampilkan di terminal. Pindai menggunakan WhatsApp untuk melakukan autentikasi.
